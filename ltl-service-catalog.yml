@@ -19,3 +19,8 @@ spring :
       hibernate :
         dialect : org.hibernate.dialect.MySQL8Dialect
     showSql : true
+
+eureka :
+  client :
+    service-url :
+      default-zone : http://localhost:8761/eureka/
